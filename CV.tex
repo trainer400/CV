@@ -35,8 +35,8 @@
         % Professional summary
         \mySection{Professional Summary}
         {
-            \large Software engineer with hands-on experience in C/C++, embedded systems, real-time software and robotic platforms. Experienced in low-level communications, ROS2, Docker and hardware-software integration through autonomous racing and experimental rocketry projects. Strong background in low-level development, system integration and multidisciplinary technical coordination. \par
-            \vspace{0.7cm}
+            \large Software engineer with hands-on experience in C/C++, embedded systems, real-time software and robotic platforms. Experienced in low-level communication protocols, ROS 2, Docker, and hardware-software integration through autonomous racing and experimental rocketry projects. Strong background in low-level development, system integration and multidisciplinary technical coordination. \par
+            \vspace{0.4cm}
         }
 
         %%%%%%%%%%%% Education %%%%%%%%%%%%
@@ -45,7 +45,7 @@
         \entryDesc{09.2022 - 12.2025}
         {Master of Computer Science and Engineering}{at Politecnico di Milano}
         {\begin{compactitem}[-]
-            \item {Final Mark: 110/110 with honors}
+            \item {Final Grade: 110/110 with honors}
             \item {Thesis Title: A Scalable and Bandwidth-Aware Telemetry Framework for Autonomous Racing Vehicles}
         \end{compactitem}
         }
@@ -53,14 +53,14 @@
         \entryDesc{09.2019 - 09.2022}
         {Bachelor of Computer Science and Engineering}{at Politecnico di Milano}
         {\begin{compactitem}[-]
-            \item Final Mark: 105/110
+            \item Final Grade: 105/110
         \end{compactitem}
         }
     
         \entryDesc{09.2014 - 06.2019}
         {High School Diploma in Computer Science}{at I.T.I.S. Stanislao Cannizzaro}
         {\begin{compactitem}[-]
-            \item {Final Mark: 100/100 with honors}
+            \item {Final Grade: 100/100 with honors}
         \end{compactitem}}
     \end{tcolorbox}
     
@@ -71,14 +71,14 @@
         \entryFocusDescWithPhoto{02.2025 - Now}
         {System Integrator}{at PoliMOVE Racing Team}
         {
-            Pursued a Master’s degree in Computer Science and Engineering, with a thesis focused on a flexible and bandwidth-aware smart telemetry framework for autonomous racing within the PoliMOVE research group. Experienced frequent international travel as part of the team, including extended technical trips and competitions abroad. On July 24th 2025, the team achieved a historic milestone by securing the first place in the inaugural American road-course autonomous race at Laguna Seca Speedway in California.
+            Pursued a Master’s degree in Computer Science and Engineering, with a thesis focused on a flexible and bandwidth-aware telemetry framework for autonomous racing within the PoliMOVE racing team. Experienced frequent international travel including extended technical trips and competitions abroad. On July 24th 2025, the team achieved a historic milestone by securing the first place in the inaugural American road-course autonomous race at Laguna Seca Speedway in California.
             \newline
-            \newline Achieved the following goals:
+            \newline Key technical contributions:
             {
                 \begin{compactitem}[-]
                     \item Developed and integrated multithreaded software within a complex ROS2 project for autonomous vehicles;
-                    \item Designed and deployed Docker development environments integrated with Gitlab CI/CD pipelines;
-                    \item Designed and developed a fully code-generated C++ CAN bus interface from DBC specification files;
+                    \item Designed and deployed Docker-based development environments integrated with GitLab CI/CD pipelines;
+                    \item Designed and developed a fully code-generated C++ CAN bus serialization and deserialization layer from DBC specification files, validated using automatically generated Catch2 unit tests achieving high code coverage;
                     \item Designed a custom network bandwidth-aware protocol for telemetry;
                     \item Performed code reviews and contributed to merge request discussions to ensure fail-safe software quality and consistency.
                 \end{compactitem}
@@ -92,7 +92,7 @@
         \entryFocusDescWithPhoto{09.2023 - 10.2024}
         {Project Manager}{at Skyward Experimental Rocketry}
         {
-            Worked as Project Manager for the Lyra rocket, coordinating a multidisciplinary team of technical leaders in designing and building a paraffin-based sounding rocket. Managed project deadlines and coordinated the work of 150 people to ensure the rocket was competition-ready. On September 14th, the rocket was successfully test-launched in Roccaraso, performing as expected and confirming the design's quality. Served as team leader at the European Rocketry Challenge (EuRoC) in Portugal, where the team secured first place, winning the competition with a perfectly nominal flight.
+            Worked as Project Manager for the Lyra rocket, coordinating a multidisciplinary team of technical leaders in designing and building a paraffin-based sounding rocket. Managed project deadlines and coordinated the work of 150 people to ensure the rocket was competition-ready. On September 14th, the rocket was successfully test-launched in Roccaraso, performing as expected and validating its design. Served as team leader at the European Rocketry Challenge (EuRoC) in Portugal, where the team secured first place, winning the competition with a nominal flight.
         }
         {Graphics/SkywardLogo.png}{0.8cm}{0.35cm}{1.05cm}{-4.5cm 0 0 0}
     \end{tcolorbox}
@@ -102,15 +102,16 @@
         \entryFocusDescWithPhoto{09.2022 - 09.2023}
         {Software Team Leader}{at Skyward Experimental Rocketry}
         {
-            Worked as Software Team Leader for the Gemini Project. Managed a team of 15 people and worked closely with the electronics department to review hardware specifications and schematics. Studied, developed, and implemented a custom communication protocol between the Ground Station and the Ground Segment Equipment to guarantee collision avoidance for low-rate radio half-duplex communications.
+            Worked as Flight Software Team Leader for the Gemini Project. Managed a team of 15 people and worked closely with the electronics department to review hardware specifications and schematics. Studied, developed, and implemented a custom communication protocol between the Ground Station and the Ground Segment Equipment to guarantee collision avoidance for low-data-rate, half-duplex radio communications.
             \newline
-            \newline Achieved the following goals: 
+            \newline Key achievements: 
             {
                 \begin{compactitem}[-]
-                    \item Developed an interconnected system of 4 computers via CAN bus communication;
-                    \item Debugged low-level issues through the usage of oscilloscopes and logic analyzers;
+                    \item Designed and developed the flight software for the STM32F767 microcontroller;
+                    \item Developed a CAN bus network connecting four computers, validated using hardware-in-the-loop (HIL) simulation;
+                    \item Debugged low-level issues using oscilloscopes and logic analyzers;
                     \item Learned the dynamics of the design process as part of the technical team;
-                    \item Transformed hybrid rocket engine operational requirements into software and system requirements;
+                    \item Translated hybrid rocket engine operational requirements into software and system requirements;
                     \item Led the launch procedures for the hybrid rocket as flight controller.
                     \newline
                 \end{compactitem}
@@ -124,15 +125,15 @@
         \entryFocusDescWithPhoto{10.2021 - 09.2022}
         {Software Team Member}{at Skyward Experimental Rocketry}
         {
-            Worked as part of the software and control team for the Pyxis Project. Programmed the flight software for the Payload bay computer and worked with the Recovery team during parafoil testing for flight characterization and control algorithm tuning. Was part of the best team in Europe settling the absolute first place and winning the competition with a nominal flight.  
+            Worked as part of the software and control team for the Pyxis Project. Programmed the flight software for the Payload bay computer and worked with the Recovery team during parafoil testing for flight characterization and control algorithm tuning. Contributed to the team's first-place at the European Rocketry Challenge competition, achieved with a nominal flight.
             \newline
-            \newline Achieved the following goals:
+            \newline Key achievements: 
             {
                 \begin{compactitem}[-]
                     \item Worked with an embedded system developed around the STM32F429 microcontroller;
                     \item Developed real-time software using the Miosix RTOS and performed low-level debugging with GDB;
-                    \item Deployed software with standard communication protocols: SPI, UART, I2C, and CAN;
-                    \item Developed low-level device drivers from hardware datasheets and reference manuals;
+                    \item Deployed flight software with standard communication protocols: SPI, UART, I2C, and CAN;
+                    \item Developed low-level device drivers from hardware datasheets and reference manuals.
                 \end{compactitem}
             }
         }
@@ -232,7 +233,7 @@
     \begin{tcolorbox}[grow to left by=0.55cm,colframe=white,colback=white,before skip=-4mm]
         %%%%%%%%%%%% Certificates %%%%%%%%%%%%
         \mySection{Certificates}
-        \entry{04.2022}{Test of English for International Communication (TOEIC): B2 (955 points)}
+        \entry{04.2022}{Test of English for International Communication (TOEIC): C1 (955 points)}
         \entry{05.2018}{Cambridge First Certificate (FCE): B1}
     \end{tcolorbox}
 
@@ -243,7 +244,7 @@
         \entryFocusDescWithPhoto{}
         {Computer Graphics}{}
         {
-            One of the main interests is computer graphics. Studied and used the Vulkan and OpenGL APIs to write a low-level, object-oriented framework for them. Also designed a 3D visualizer for rocket trajectory and attitude to better visualize flights from the ground station.
+            Strong interest in computer graphics. Studied and used the Vulkan and OpenGL APIs to write a low-level, object-oriented framework for them. Also developed a 3D visualizer for rocket trajectories and attitude data to monitor flights from the ground station.
         }
         {Graphics/VulkanLogo.png}{1.25cm}{0.0cm}{0cm}{0 0 0 0}
     \end{tcolorbox}
@@ -254,7 +255,7 @@
         \entryFocusDescWithPhoto{}
         {Electronics}{}
         {
-            Passionate about analog and digital electronics. At university studied the fundamentals of electronics and completed a course in digital electronics design. Additionally, completed Radio amateur certification. Presented twice at the Rome Maker Faire showcasing two high-voltage projects. Through these experiences, learned the usage of essential electronics instrumentation such as oscilloscopes, logic analyzers, and function generators, which enabled me to design and build analog amplifiers and multiple solid-state Tesla coils at home.
+            Passionate about analog and digital electronics. Studied the fundamentals of electronics at university and completed a course in digital circuit design. Additionally, obtained an amateur radio operator license. Presented twice at the Rome Maker Faire showcasing two high-voltage projects. Through these experiences, learned the usage of essential electronics instrumentation such as oscilloscopes, logic analyzers, and function generators, which enabled me to design and build analog amplifiers and multiple solid-state Tesla coils at home.
         }
         {Graphics/electronics.png}{1.25cm}{0.45cm}{0.1cm}{0 0 0 0}
     \end{tcolorbox}
